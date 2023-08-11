@@ -1,0 +1,541 @@
+.App{
+  height: 100%;
+  width: 100%;
+}
+
+
+.arco-masking-content.at-center {
+  width:90%;
+
+}
+
+
+/* push */
+
+
+.box{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  background-color: #FAFAFA;
+  position:fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  height:auto;
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+.mainboxPush{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+
+.title{
+  background-color: #D0D0D0;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+.rowone{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items:center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.rowtwo{
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+
+}
+
+
+.scan{
+  margin-left:20px;
+  background-color: #CCCCE7;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+
+}
+
+.search{
+  width:80%;
+  height:40px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-right: 20px;
+  font-weight: bold;
+  text-indent:10px;
+  border-radius: 6px;
+  border: solid #ABABAB;
+}
+
+
+.itemlist{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin: 10px 0;
+}
+
+.Items{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.Item{
+  padding:5px;
+  font-size: 16px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+
+.code{
+  border-radius: 6px;
+  border: solid #ABABAB;
+  width:30%;
+  height:auto;
+  padding: 5px;
+  color: #7F7F7F;
+  /* padding-bottom: 10px; */
+
+}
+
+
+.buttonbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+
+
+.submit{
+  border:none;
+  width:40%;
+  height:auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #826B93;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+.cancel{
+  border:1px solid #ABABAB;
+  width:40%;
+  height:auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+
+}
+
+hr{
+  border: 0.5px solid #CCCCCC;
+  width:100%;
+}
+
+
+
+
+/* check */
+
+.mainboxCheck{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.Itemcheck{
+  padding:5px;
+  font-size: 16px;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+
+}
+
+.checkcode{
+  border-radius: 6px;
+  border: solid #ABABAB;
+  width:40%;
+  height:auto;
+  padding: 5px;
+  color: #7F7F7F;
+ 
+
+}
+
+.comment{
+  margin-top: 10px;
+  height:100px;
+  background-color: white;
+  border-radius: 6px;
+  border:2px solid #E5E4E9;
+  padding: 10px;
+}
+
+
+.checkedTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+p{
+  font-size:16px;
+}
+
+div{
+  font-size: 16px;
+}
+
+span{
+  font-size: 16px;
+}
+
+/* transfer */
+
+.mainboxTransfer {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.rowone-transfer {
+  align-items:center;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: left; */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 95%;
+}
+
+.scan-transfer {
+  width: 70px;
+  height: 35px;
+  margin-left: auto;
+  margin-right: 5%;
+  background-color: #CCCCE7;
+  text-align: center;
+  align-items: center;
+  line-height: 35px;
+  border-radius: 10px;
+}
+
+.title-transfer-inflex {
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.title-transfer {
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin-top: 20px;
+}
+
+.info-transfer {
+  width: 80%;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: solid #ABABAB;
+}
+
+.roomPickerTransfer {
+  width: 90%;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom:10px;
+  margin: 10px auto 0 auto;
+  font-weight: bold;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: solid #ABABAB;
+}
+
+.delete-from-here {
+  width: 70%;
+  height: 40px;
+  background-color: #efefef;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.hr-transfer{
+  border-top: 0.5px solid #CCCCCC;
+  width:100%;
+  height: 0;
+}
+
+.buttonbox-transfer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.cancel-transfer {
+  border:1px solid #ABABAB;
+  width: 35%;
+  height:40px;
+  padding: 10px 0;
+  background-color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.submit-transfer {
+  border:none;
+  width:35%;
+  height:40px;
+  padding: 10px 0;
+  background-color: #826B93;
+  color: white;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.scanButton {
+  width: 70px;
+  height: 35px;
+  font-weight: bold;
+  color: black;
+  margin: 0 auto 0 30px;
+  border-radius: 6px;
+}
+
+.deleteLongButton {
+  width: 75%;
+  font-weight: bold;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+.cancelButton {
+  width: 35%;
+  height: 40px;
+  font-weight: bold;
+  margin: 10 3%;
+  border-radius: 6px;
+}
+
+.submitButton {
+  width: 35%;
+  height: 40px;
+  font-weight: bold;
+  margin: 10 3%;
+  border-radius: 6px;
+}
+
+
+
+/* homepage */
+.mapBox {
+  width: 100%;
+  height: 335px;
+  background-color: #DFD7D7;
+  text-align: center;
+  line-height: 335px;
+}
+
+.mapBoxBg {
+  width: 80%;
+  height: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+.map {
+  width: 90%;
+  height: 90%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.storeButton {
+  border:none;
+  width:35%;
+  height:40px;
+  padding: 10px 0;
+  background-color: #CCCCE7;
+  color: black;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.buttonboxHome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 30px;
+}
+
+.homeItemBoxOne {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.homeItemTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.transferButton {
+  border:none;
+  width: 130px;
+  height:40px;
+  margin-left: 30px;
+  padding: 10px 0;
+  background-color: #CCCCE7;
+  color: black;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+.homeItemListBox {
+  /* width: 374px;  */
+  height: 240px;
+  max-height: 240px;
+  overflow: auto;
+  background-color: rgb(224,224,224,0.33);
+  border: 1px solid;
+  border-color: rgb(0, 0, 0, .75);
+  border-radius: 6px;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeItemListBoxRows {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  line-height: 36px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+.codeHome {
+  border-radius: 6px;
+  border: solid #ABABAB;
+  width: 30%;
+  height: 36px;
+  margin-left: 20px;
+  padding-left: 5px;
+  color: #7F7F7F;
+}
+
+.locationSelectorBox {
+  margin: 20px auto;
+  margin-bottom: 0;
+}
+
+.locationSelector {
+  width: 90%;
+  border-color: rgb(0, 0, 0, 0.66);
+  border-radius: 6px;
+}
+
+/* Filter Box */
+.filterBox {
+  width: 250px;
+  background-color: #fff;
+  position: absolute;
+  top: 150px;
+  padding: 5px 10px;
+  max-height: 150px;
+  overflow: auto;
+}
+
+.filterItem {
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
