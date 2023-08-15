@@ -25,10 +25,14 @@ const ColorBoxes = (props) => {
         if (room) {
             room_arr = room.split(',')
             room_id = room_arr[0]
+            const shelf_id = room_arr[1]
+            const shelf_index = parseInt(shelf_id.substring(1))
             for (const roomConfig of roomConfigs[room_id]) {
                 const room = new fabric.Rect({...roomConfig, selectable: false});
                 fabricRef.current.add(room);
             }
+            const selectedRoom = new fabric.Rect({ ...roomConfigs[room_id][shelf_index], fill: '#faee1c', stroke: '#cc0000', strokeWidth: 2, selectable: false })
+            fabricRef.current.add(selectedRoom)
         } else {
             const room = new fabric.Rect({top: -5, left: -5, width: 360, height: 310, fill: '#DFD7D7', selectable: false})
             fabricRef.current.add(room)

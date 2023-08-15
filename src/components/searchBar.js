@@ -2,7 +2,6 @@
 import { SearchBar } from '@arco-design/mobile-react';
 import { useState, useEffect } from 'react';
 import { useDebounce } from '@uidotdev/usehooks'
-import itemsData from '../assets/itemsData'
 import './index.less'
 
 export default function MySearchBar(props) {
